@@ -9,7 +9,12 @@ html {
 }
 
 body {
-    font-family: Roboto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a:link {
+    text-decoration: none;
+    color: #E5E7EB;
 }
 
 .container-one {
@@ -22,10 +27,10 @@ body {
     font-size: 24px;
     display: flex;
     margin-right: auto;
+    margin-bottom: 10px;
 }
 
 .header-nav-container {
-    color: #E5E7EB;
     font-size: 18px;
     display: flex;
     gap: 20px;
@@ -34,4 +39,55 @@ body {
 .header-container {
     display: flex;
     margin-bottom: 50px;
+    flex-wrap: wrap;
 }
+
+.main-text {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.main-subtext {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.main-button {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 20px;
+    min-width: 85px;
+    max-width: 86px;
+    min-height: auto;
+
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    margin-bottom: 50px;
+}
+
+.container-two {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img {
+    width: 150px;
+    height: 225px;
+}
+
+.image-container {
+    margin: 5px 10%;
+    display: flex;
+    justify-content: center;
+    flex: 1 1 auto;
+}
+
