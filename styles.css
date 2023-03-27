@@ -1,0 +1,37 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Roboto;
+}
+
+.container-one {
+    background-color: #1F2937;
+    padding: 20px 10%;
+}
+
+.header-logo-container {
+    color: #F9FAF8;
+    font-size: 24px;
+    display: flex;
+    margin-right: auto;
+}
+
+.header-nav-container {
+    color: #E5E7EB;
+    font-size: 18px;
+    display: flex;
+    gap: 20px;
+}
+
+.header-container {
+    display: flex;
+    margin-bottom: 50px;
+}
