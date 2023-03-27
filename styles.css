@@ -91,3 +91,21 @@ img {
     flex: 1 1 auto;
 }
 
+.section-two-images {
+    display: flex;
+    justify-content: center;
+    flex: 1 1 auto;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 200px;
+}
+
+
+
