@@ -120,7 +120,7 @@ img {
 }
 
 .image-border {
-    border: solid 2px #3882F6;
+    border: solid 2px black;
     border-radius: 15px;
 }
 
