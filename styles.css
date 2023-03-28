@@ -124,4 +124,22 @@ img {
     border-radius: 15px;
 }
 
+.quote-container {
+    background-color: #E5E7EB;
+    padding: 0 50px 0 50px;
+}
 
+blockquote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    padding: 50px 0 0 0;
+}
+
+figcaption {
+    font-weight: bold;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: end;
+}
