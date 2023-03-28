@@ -60,9 +60,8 @@ a:link {
     border: none;
     padding: 5px 20px;
     border-radius: 20px;
-    min-width: 85px;
-    max-width: 86px;
-    min-height: auto;
+    width: 86px;
+    height: 26px;
 
 }
 
@@ -142,4 +141,45 @@ figcaption {
     padding-right: 50px;
     display: flex;
     justify-content: end;
+}
+
+.call-to-action {
+    display: flex;
+    background-color: #3882F6;
+    margin: 80px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.action-sub {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 30px;
+    flex: initial;
+}
+
+.h3-action {
+    margin-bottom: 5px;
+}
+
+.p-action {
+    margin-top: 0;
+}
+
+.bottom-button {
+    background-color: #3882F6;
+    color: white;
+    border: 1px solid white;
+    padding: 5px 20px;
+    border-radius: 20px;
+    width: 88px;
+    height: 28px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex: 0 0 auto;
+    justify-content: center;
+    align-self: center;
+    margin: 30px;
 }
